@@ -21,33 +21,27 @@ MonoBehaviour:
     m_Address: Assets/Tests/Test Assets/Cube.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: d9084b0ef709c614bb130811e15fdaf6
     m_Address: Bing Maps Operate
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 4132834978747560140, guid: d9084b0ef709c614bb130811e15fdaf6, type: 3}
-    m_TargetAsset: {fileID: 4132834978747560140, guid: d9084b0ef709c614bb130811e15fdaf6, type: 3}
   - m_GUID: 4702cd734b8046a44bfa2042255f8cdb
     m_Address: Bing Maps Design
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 3004872086824017580, guid: 4702cd734b8046a44bfa2042255f8cdb, type: 3}
-    m_TargetAsset: {fileID: 3004872086824017580, guid: 4702cd734b8046a44bfa2042255f8cdb, type: 3}
   - m_GUID: 040262564398d3f42bc2f6d0d832ebbe
     m_Address: Bing Maps
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 4159023234360292588, guid: 040262564398d3f42bc2f6d0d832ebbe, type: 3}
-    m_TargetAsset: {fileID: 4159023234360292588, guid: 040262564398d3f42bc2f6d0d832ebbe, type: 3}
   - m_GUID: 7428a439a61f29c49bd302955b9e4fbf
     m_Address: Wind Turbine Operate
     m_ReadOnly: 0
     m_SerializedLabels:
     - remote
-    m_MainAsset: {fileID: 5559037048924457402, guid: 7428a439a61f29c49bd302955b9e4fbf, type: 3}
-    m_TargetAsset: {fileID: 5559037048924457402, guid: 7428a439a61f29c49bd302955b9e4fbf, type: 3}
+  - m_GUID: dcbbbdb81b2d3b34d936bb88c4a005c2
+    m_Address: Assets/ScriptableObjects/Turbine Site Data/TurbineSiteData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 3d207885b24b6cc4db0da10399714075, type: 2}
   m_SchemaSet:

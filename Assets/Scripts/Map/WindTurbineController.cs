@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 using System;
+using System.Diagnostics;
 using System.Linq;
 using Microsoft.Geospatial;
 using Microsoft.Maps.Unity;
@@ -107,6 +108,9 @@ public class WindTurbineController : MonoBehaviour, IMixedRealityPointerHandler,
     private void OnTurbineDataUpdated()
     {
         rotateRpm.rpm = (float)turbineData.windTurbineData.RotorSpeed;
+
+        
+
         SetAlertStatus(turbineData.windTurbineMetaData.Alert);
     }
 

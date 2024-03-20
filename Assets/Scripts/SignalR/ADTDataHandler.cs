@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 using Microsoft.Unity;
 using System.Linq;
+using System;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ public class ADTDataHandler : MonoBehaviour
     private SignalRService rService;
 
     public string url = "";
+
+    [SerializeField]
     public TurbineSiteData turbineSiteData;
     public WindTurbineGameEvent TurbinePropertyMessageReceived;
 
@@ -83,7 +86,16 @@ public class ADTDataHandler : MonoBehaviour
     {
         UnityDispatcher.InvokeOnAppThread(() =>
         {
+            // Print each key-value pair in the windTurbines dictionary
+            foreach (var item in turbineSiteData.windTurbines)
+            {
+                Debug.Log($"Key: {item.Key}, Value: {item.Value}");
+            }
+
             var matchingTurbines = turbineSiteData.windTurbines.Where(t => t.Key.windTurbineData.TurbineId == message.TurbineID);
+
+            Debug.Log("Length: " + matchingTurbines.Count().ToString());
+
             if (!matchingTurbines.Any())
             {
                 Debug.LogWarning($"Turbine {message.TurbineID} was not found in the Site Data.");
@@ -94,6 +106,7 @@ public class ADTDataHandler : MonoBehaviour
             TurbinePropertyMessageReceived.Raise(turbineScriptableObject);
         });
     }
+
 
     private Task CreateServiceAsync()
     {

@@ -15,12 +15,12 @@ MonoBehaviour:
   windTurbineData:
     <TurbineId>k__BackingField: T102
     <TimeInterval>k__BackingField: ' 00:00-0:10'
-    <EventCode>k__BackingField: 100
-    <EventDescription>k__BackingField: ' OK'
-    <WindSpeed>k__BackingField: 7.739981374442577
-    <AmbientTemperature>k__BackingField: 1.3173466464281083
-    <RotorSpeed>k__BackingField: 11.355677317142487
-    <Power>k__BackingField: 1225.654797571373
+    <EventCode>k__BackingField: 400
+    <EventDescription>k__BackingField: Light icing (rotor bl. ice sensor)
+    <WindSpeed>k__BackingField: 7.346897223567076
+    <AmbientTemperature>k__BackingField: -5.134893782965324
+    <RotorSpeed>k__BackingField: 1.4686510132945378
+    <Power>k__BackingField: 208.39932538028773
   windTurbineMetaData:
     <FacilityName>k__BackingField: Sample Wind Turbine Site
     <Latitude>k__BackingField: 36.6979
