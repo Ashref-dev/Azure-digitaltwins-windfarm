@@ -2,9 +2,15 @@
 
 This repository holds the code for a **Wind Farm Digital Twin** project built with Unity, Azure Digital Twins, Azure IoT Hub, and SignalR. 
 
-![Mixed Reality Test inside Unity engine](MR-ADT.gif)
+
+
+https://github.com/Black-Spear/Azure-digitaltwins-windfarm/assets/109633107/7c3b4b47-01cd-4e31-b7eb-4920f64c3764
+
+
 
 The project features a **mixed reality application** designed to run on Microsoft HoloLens.  
+
+Link to better video [right here](https://www.linkedin.com/posts/mohamedashrefbna_unity-mr-ar-activity-7176132148221927425--Eaj?utm_source=share&utm_medium=member_desktop)
 
 **What it does:**
 
